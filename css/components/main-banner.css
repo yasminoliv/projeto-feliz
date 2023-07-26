@@ -1,29 +1,29 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/img.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height:700px;
-    border-bottom: 10px solid #000;
-    padding-top: 150px;
+    height:650px;
+    border-bottom: 20px solid #000;
+    padding-top: 170px;
     padding-left: 50px;
    
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
     
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 40px;
     
 
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-evenly;
 }
