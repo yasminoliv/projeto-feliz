@@ -4,14 +4,15 @@
     box-shadow: 5px 5px 0 black;
     padding: 18px 20px;
     margin-right: 0;
-    transition: transform 2s linear cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 2s linear (0);
     font-size: 20px;
-    color: #fff;
+    color: #f8f8f8;
     text-decoration: none;
     margin-right: 30px;
     
 }
-#button:hover {
-    transform: scale(1.05);
+.button:hover {
+    transform:scale(1.05);
     opacity: 0.5;
+    background: white;
 }
