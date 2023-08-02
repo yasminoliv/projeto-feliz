@@ -9,10 +9,19 @@
     color: #f8f8f8;
     text-decoration: none;
     margin-right: 30px;
+    cursor: pointer;
     
 }
 .main-button:hover {
     transform:scale(1.05);
-    opacity: 0.5;
-    background: white;
+    opacity: 0.1;
+    background: rgb(0, 0, 0);
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform:scale(1.02);
 }
